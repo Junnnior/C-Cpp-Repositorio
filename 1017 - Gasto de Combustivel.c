@@ -1,8 +1,6 @@
+/* URI Online Judge | Gasto de Combustivel - 1017 */ 
 #include <stdio.h>
-/*  
-    Gasto de Combustivel
-    URI Online Judge | 1017
-*/ 
+
 int main(void)
 {
     int horas, km; 

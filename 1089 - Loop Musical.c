@@ -20,17 +20,17 @@ int main(void) {
             scanf("%d", &amostras[i]);
         }
 
-        // pecorre array busncando picos
+        // pecorre array buscando picos
         for(i = 0; i <qtdAmostras; i ++){
 
             indexEsquerda = i;
             indexDireita = i;
 
-            // trada erro do index a esquerda da amostra
+            // trata erro do index a esquerda da amostra
             if(indexEsquerda == 0 ){
                 indexEsquerda = qtdAmostras ;
 
-            // trada erro do index a direita da amostra
+            // trata erro do index a direita da amostra
             } else if(indexDireita == qtdAmostras - 1){
                 indexDireita =  -1;
             }
